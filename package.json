@@ -1,0 +1,15 @@
+{
+  "name": "databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exampleServer13.js",
+  "dependencies": {
+    "pg": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
