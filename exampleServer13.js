@@ -9,7 +9,7 @@ var pg = require('pg');
 // ****** INITIALIZATION ********
 // ******************************
 
-var conString = "postgres://localhost:5432/mailer13";
+var conString = process.env["DATABASE_URL"];
 var db;
 
 pg.connect(conString, function(err, client, done) {

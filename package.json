@@ -4,6 +4,7 @@
   "description": "",
   "main": "exampleServer13.js",
   "dependencies": {
+    "mandrill-api": "^1.0.41",
     "pg": "^4.3.0"
   },
   "devDependencies": {},
